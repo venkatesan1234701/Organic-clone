@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-display: swap;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:"Roboto", sans-serif;
+}
+.navbar-brand:hover{
+    color: rgb(210, 15, 15);
+}
+.nav-link{
+    margin-right:10px;
+    margin-left: 10px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(247, 28, 28);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgba(248,26,92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background:rgba(248,26,92);
+    color: white;
+    border-radius: 60px;
+    font-size: 700;
+}
+.main{
+    background-image: url(/organic\ bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50;
+    width:100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color:rgba(248,26,92) ;
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: rgb(182, 88, 113);
+    transition: 0.1s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 44px;
+    width: 100px;
+    background-color: white;
+    margin-left: -20px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input{
+    height: 43px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+} 
+
+.news::placeholder{
+    color: white;
+}
+
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.fab:hover{
+    color: rgba(248,26,92) ;
+    transition: 0.2s;
+}
